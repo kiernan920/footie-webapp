@@ -1,0 +1,301 @@
+23:48:07,265 INFO  [org.jboss.modules] (main) JBoss Modules version 1.3.6.Final-redhat-1
+23:48:08,041 INFO  [org.jboss.msc] (main) JBoss MSC version 1.1.5.Final-redhat-1
+23:48:08,426 INFO  [org.jboss.as] (MSC service thread 1-8) JBAS015899: JBoss EAP 6.4.0.GA (AS 7.5.0.Final-redhat-21) starting
+23:48:08,454 DEBUG [org.jboss.as.config] (MSC service thread 1-8) Configured system properties:
+	[Standalone] = 
+	awt.toolkit = sun.awt.X11.XToolkit
+	file.encoding = UTF-8
+	file.encoding.pkg = sun.io
+	file.separator = /
+	java.awt.graphicsenv = sun.awt.X11GraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.print.PSPrinterJob
+	java.class.path = /home/coolbeaver/Development/javaee/JavaEEProject/jboss-eap-6.4/jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = /home/coolbeaver/.sdkman/candidates/java/8u131/jre/lib/endorsed
+	java.ext.dirs = /home/coolbeaver/.sdkman/candidates/java/8u131/jre/lib/ext:/usr/java/packages/lib/ext
+	java.home = /home/coolbeaver/.sdkman/candidates/java/8u131/jre
+	java.io.tmpdir = /tmp
+	java.library.path = /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_131-b11
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_131
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.131-b11
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.home.dir = /home/coolbeaver/Development/javaee/JavaEEProject/jboss-eap-6.4
+	jboss.host.name = coolbeaver-lifebook-ah532-g21
+	jboss.modules.dir = /home/coolbeaver/Development/javaee/JavaEEProject/jboss-eap-6.4/modules
+	jboss.modules.policy-permissions = true
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = coolbeaver-lifebook-ah532-g21
+	jboss.qualified.host.name = coolbeaver-lifebook-ah532-g21
+	jboss.server.base.dir = /home/coolbeaver/Development/javaee/JavaEEProject/jboss-eap-6.4/standalone
+	jboss.server.config.dir = /home/coolbeaver/Development/javaee/JavaEEProject/jboss-eap-6.4/standalone/configuration
+	jboss.server.data.dir = /home/coolbeaver/Development/javaee/JavaEEProject/jboss-eap-6.4/standalone/data
+	jboss.server.deploy.dir = /home/coolbeaver/Development/javaee/JavaEEProject/jboss-eap-6.4/standalone/data/content
+	jboss.server.log.dir = /home/coolbeaver/Development/javaee/JavaEEProject/jboss-eap-6.4/standalone/log
+	jboss.server.name = coolbeaver-lifebook-ah532-g21
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = /home/coolbeaver/Development/javaee/JavaEEProject/jboss-eap-6.4/standalone/tmp
+	line.separator = 
+
+	logging.configuration = file:/home/coolbeaver/Development/javaee/JavaEEProject/jboss-eap-6.4/standalone/configuration/logging.properties
+	module.path = /home/coolbeaver/Development/javaee/JavaEEProject/jboss-eap-6.4/modules
+	org.jboss.boot.log.file = /home/coolbeaver/Development/javaee/JavaEEProject/jboss-eap-6.4/standalone/log/server.log
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Linux
+	os.version = 4.4.0-78-generic
+	path.separator = :
+	sun.arch.data.model = 64
+	sun.boot.class.path = /home/coolbeaver/.sdkman/candidates/java/8u131/jre/lib/resources.jar:/home/coolbeaver/.sdkman/candidates/java/8u131/jre/lib/rt.jar:/home/coolbeaver/.sdkman/candidates/java/8u131/jre/lib/sunrsasign.jar:/home/coolbeaver/.sdkman/candidates/java/8u131/jre/lib/jsse.jar:/home/coolbeaver/.sdkman/candidates/java/8u131/jre/lib/jce.jar:/home/coolbeaver/.sdkman/candidates/java/8u131/jre/lib/charsets.jar:/home/coolbeaver/.sdkman/candidates/java/8u131/jre/lib/jfr.jar:/home/coolbeaver/.sdkman/candidates/java/8u131/jre/classes
+	sun.boot.library.path = /home/coolbeaver/.sdkman/candidates/java/8u131/jre/lib/amd64
+	sun.cpu.endian = little
+	sun.cpu.isalist = 
+	sun.desktop = gnome
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = /home/coolbeaver/Development/javaee/JavaEEProject/jboss-eap-6.4/jboss-modules.jar -mp /home/coolbeaver/Development/javaee/JavaEEProject/jboss-eap-6.4/modules -jaxpmodule javax.xml.jaxp-provider org.jboss.as.standalone -Djboss.home.dir=/home/coolbeaver/Development/javaee/JavaEEProject/jboss-eap-6.4 -Djboss.server.base.dir=/home/coolbeaver/Development/javaee/JavaEEProject/jboss-eap-6.4/standalone
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = UTF-8
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = unknown
+	user.country = GB
+	user.dir = /home/coolbeaver/Development/javaee/JavaEEProject/jboss-eap-6.4/bin
+	user.home = /home/coolbeaver
+	user.language = en
+	user.name = coolbeaver
+	user.timezone = Europe/Dublin
+23:48:08,462 DEBUG [org.jboss.as.config] (MSC service thread 1-8) VM Arguments: -D[Standalone] -XX:+UseCompressedOops -verbose:gc -Xloggc:/home/coolbeaver/Development/javaee/JavaEEProject/jboss-eap-6.4/standalone/log/gc.log -XX:+PrintGCDetails -XX:+PrintGCDateStamps -XX:+UseGCLogFileRotation -XX:NumberOfGCLogFiles=5 -XX:GCLogFileSize=3M -XX:-TraceClassUnloading -Xms1303m -Xmx1303m -XX:MaxPermSize=256m -Djava.net.preferIPv4Stack=true -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Djboss.modules.policy-permissions=true -Dorg.jboss.boot.log.file=/home/coolbeaver/Development/javaee/JavaEEProject/jboss-eap-6.4/standalone/log/server.log -Dlogging.configuration=file:/home/coolbeaver/Development/javaee/JavaEEProject/jboss-eap-6.4/standalone/configuration/logging.properties 
+23:48:12,742 INFO  [org.xnio] (MSC service thread 1-1) XNIO Version 3.0.13.GA-redhat-1
+23:48:12,767 INFO  [org.xnio.nio] (MSC service thread 1-1) XNIO NIO Implementation Version 3.0.13.GA-redhat-1
+23:48:12,809 INFO  [org.jboss.as.server] (Controller Boot Thread) JBAS015888: Creating http management service using socket-binding (management-http)
+23:48:12,844 INFO  [org.jboss.remoting] (MSC service thread 1-1) JBoss Remoting version 3.3.4.Final-redhat-1
+23:48:12,996 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 31) JBAS010280: Activating Infinispan subsystem.
+23:48:13,031 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 39) JBAS011800: Activating Naming Subsystem
+23:48:13,076 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 44) JBAS013371: Activating Security Subsystem
+23:48:13,131 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 48) JBAS015537: Activating WebServices Extension
+23:48:13,106 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 46) JBAS010153: Node identifier property is set to the default value. Please make sure it is unique.
+23:48:13,154 INFO  [org.jboss.as.security] (MSC service thread 1-3) JBAS013370: Current PicketBox version=4.1.1.Final-redhat-1
+23:48:13,163 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 37) JBAS012615: Activated the following JSF Implementations: [main, 1.2]
+23:48:13,185 INFO  [org.jboss.as.naming] (MSC service thread 1-2) JBAS011802: Starting Naming Service
+23:48:13,224 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-2) JBAS015400: Bound mail session [java:jboss/mail/Default]
+23:48:13,361 INFO  [org.jboss.as.connector.logging] (MSC service thread 1-3) JBAS010408: Starting JCA Subsystem (IronJacamar 1.0.31.Final-redhat-1)
+23:48:13,556 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 27) JBAS010403: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+23:48:14,416 INFO  [org.apache.coyote.http11.Http11Protocol] (MSC service thread 1-8) JBWEB003001: Coyote HTTP/1.1 initializing on : http-/127.0.0.1:8080
+23:48:14,481 INFO  [org.apache.coyote.http11.Http11Protocol] (MSC service thread 1-8) JBWEB003000: Coyote HTTP/1.1 starting on: http-/127.0.0.1:8080
+23:48:14,875 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-8) JBAS015012: Started FileSystemDeploymentService for directory /home/coolbeaver/Development/javaee/JavaEEProject/jboss-eap-6.4/standalone/deployments
+23:48:14,883 INFO  [org.jboss.as.remoting] (MSC service thread 1-2) JBAS017100: Listening on 127.0.0.1:4447
+23:48:14,890 INFO  [org.jboss.as.remoting] (MSC service thread 1-1) JBAS017100: Listening on 127.0.0.1:9999
+23:48:14,912 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) JBAS015876: Starting deployment of "mysql-connector-java-5.1.18-bin.jar" (runtime-name: "mysql-connector-java-5.1.18-bin.jar")
+23:48:15,147 INFO  [org.jboss.ws.common.management] (MSC service thread 1-6) JBWS022052: Starting JBoss Web Services - Stack CXF Server 4.3.4.Final-redhat-1
+23:48:15,338 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) JBAS010404: Deploying non-JDBC-compliant driver class com.mysql.jdbc.Driver (version 5.1)
+23:48:15,486 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) JBAS010400: Bound data source [java:/tutorial]
+23:48:15,757 INFO  [org.jboss.as.server] (Controller Boot Thread) JBAS015859: Deployed "mysql-connector-java-5.1.18-bin.jar" (runtime-name : "mysql-connector-java-5.1.18-bin.jar")
+23:48:15,795 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015961: Http management interface listening on http://127.0.0.1:9990/management
+23:48:15,795 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015951: Admin console listening on http://127.0.0.1:9990
+23:48:15,796 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015874: JBoss EAP 6.4.0.GA (AS 7.5.0.Final-redhat-21) started in 10383ms - Started 183 of 221 services (59 services are lazy, passive or on-demand)
+23:49:01,225 INFO  [org.jboss.as.repository] (management-handler-thread - 1) JBAS014900: Content added at location /home/coolbeaver/Development/javaee/JavaEEProject/jboss-eap-6.4/standalone/data/content/7b/da22ecf88d017d7a3c40e809d099ca0954ed90/content
+23:49:01,245 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) JBAS015876: Starting deployment of "jboss-javaee6-webapp2.war" (runtime-name: "jboss-javaee6-webapp2.war")
+23:49:02,433 WARN  [org.jboss.as.ejb3] (MSC service thread 1-5) JBAS014218: [EJB3.1 spec, section 4.9.2] Session bean implementation class MUST NOT be a interface - group1.dao.GenericDAO is an interface, hence won't be considered as a session bean
+23:49:02,435 WARN  [org.jboss.as.ejb3] (MSC service thread 1-5) JBAS014219: [EJB3.1 spec, section 4.9.2] Session bean implementation class MUST be public, not abstract and not final - group1.dao.GenericJPADAO won't be considered as a session bean, since it doesn't meet that requirement
+23:49:02,686 INFO  [org.jboss.as.jpa] (MSC service thread 1-5) JBAS011401: Read persistence.xml for Tutorial
+23:49:03,592 INFO  [org.jboss.weld.deployer] (MSC service thread 1-5) JBAS016002: Processing weld deployment jboss-javaee6-webapp2.war
+23:49:03,631 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-5) JNDI bindings for session bean named Validation in deployment unit deployment "jboss-javaee6-webapp2.war" are as follows:
+
+	java:global/jboss-javaee6-webapp2/Validation!group1.validation.Validation
+	java:app/jboss-javaee6-webapp2/Validation!group1.validation.Validation
+	java:module/Validation!group1.validation.Validation
+	java:global/jboss-javaee6-webapp2/Validation
+	java:app/jboss-javaee6-webapp2/Validation
+	java:module/Validation
+
+23:49:03,631 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-5) JNDI bindings for session bean named HashPassword in deployment unit deployment "jboss-javaee6-webapp2.war" are as follows:
+
+	java:global/jboss-javaee6-webapp2/HashPassword!group1.utility.HashPassword
+	java:app/jboss-javaee6-webapp2/HashPassword!group1.utility.HashPassword
+	java:module/HashPassword!group1.utility.HashPassword
+	java:global/jboss-javaee6-webapp2/HashPassword
+	java:app/jboss-javaee6-webapp2/HashPassword
+	java:module/HashPassword
+
+23:49:03,632 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-5) JNDI bindings for session bean named ImportAllExcel in deployment unit deployment "jboss-javaee6-webapp2.war" are as follows:
+
+	java:global/jboss-javaee6-webapp2/ImportAllExcel!group1.importData.ImportAllExcel
+	java:app/jboss-javaee6-webapp2/ImportAllExcel!group1.importData.ImportAllExcel
+	java:module/ImportAllExcel!group1.importData.ImportAllExcel
+	java:global/jboss-javaee6-webapp2/ImportAllExcel
+	java:app/jboss-javaee6-webapp2/ImportAllExcel
+	java:module/ImportAllExcel
+
+23:49:03,632 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-5) JNDI bindings for session bean named DataBaseEntityFactory in deployment unit deployment "jboss-javaee6-webapp2.war" are as follows:
+
+	java:global/jboss-javaee6-webapp2/DataBaseEntityFactory!group1.tableEntities.DataBaseEntityFactory
+	java:app/jboss-javaee6-webapp2/DataBaseEntityFactory!group1.tableEntities.DataBaseEntityFactory
+	java:module/DataBaseEntityFactory!group1.tableEntities.DataBaseEntityFactory
+	java:global/jboss-javaee6-webapp2/DataBaseEntityFactory
+	java:app/jboss-javaee6-webapp2/DataBaseEntityFactory
+	java:module/DataBaseEntityFactory
+
+23:49:03,632 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-5) JNDI bindings for session bean named WriteToDB in deployment unit deployment "jboss-javaee6-webapp2.war" are as follows:
+
+	java:global/jboss-javaee6-webapp2/WriteToDB!group1.importData.WriteToDB
+	java:app/jboss-javaee6-webapp2/WriteToDB!group1.importData.WriteToDB
+	java:module/WriteToDB!group1.importData.WriteToDB
+	java:global/jboss-javaee6-webapp2/WriteToDB
+	java:app/jboss-javaee6-webapp2/WriteToDB
+	java:module/WriteToDB
+
+23:49:03,632 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-5) JNDI bindings for session bean named BaseDataWS in deployment unit deployment "jboss-javaee6-webapp2.war" are as follows:
+
+	java:global/jboss-javaee6-webapp2/BaseDataWS!group1.restful.BaseDataWS
+	java:app/jboss-javaee6-webapp2/BaseDataWS!group1.restful.BaseDataWS
+	java:module/BaseDataWS!group1.restful.BaseDataWS
+	java:global/jboss-javaee6-webapp2/BaseDataWS
+	java:app/jboss-javaee6-webapp2/BaseDataWS
+	java:module/BaseDataWS
+
+23:49:03,633 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-5) JNDI bindings for session bean named UeTableDAO in deployment unit deployment "jboss-javaee6-webapp2.war" are as follows:
+
+	java:global/jboss-javaee6-webapp2/UeTableDAO!group1.dao.UeTableDAO
+	java:app/jboss-javaee6-webapp2/UeTableDAO!group1.dao.UeTableDAO
+	java:module/UeTableDAO!group1.dao.UeTableDAO
+	java:global/jboss-javaee6-webapp2/UeTableDAO
+	java:app/jboss-javaee6-webapp2/UeTableDAO
+	java:module/UeTableDAO
+
+23:49:03,633 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-5) JNDI bindings for session bean named BaseDataDAO in deployment unit deployment "jboss-javaee6-webapp2.war" are as follows:
+
+	java:global/jboss-javaee6-webapp2/BaseDataDAO!group1.dao.BaseDataDAO
+	java:app/jboss-javaee6-webapp2/BaseDataDAO!group1.dao.BaseDataDAO
+	java:module/BaseDataDAO!group1.dao.BaseDataDAO
+	java:global/jboss-javaee6-webapp2/BaseDataDAO
+	java:app/jboss-javaee6-webapp2/BaseDataDAO
+	java:module/BaseDataDAO
+
+23:49:03,633 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-5) JNDI bindings for session bean named CountryOperatorMccMncDAO in deployment unit deployment "jboss-javaee6-webapp2.war" are as follows:
+
+	java:global/jboss-javaee6-webapp2/CountryOperatorMccMncDAO!group1.dao.CountryOperatorMccMncDAO
+	java:app/jboss-javaee6-webapp2/CountryOperatorMccMncDAO!group1.dao.CountryOperatorMccMncDAO
+	java:module/CountryOperatorMccMncDAO!group1.dao.CountryOperatorMccMncDAO
+	java:global/jboss-javaee6-webapp2/CountryOperatorMccMncDAO
+	java:app/jboss-javaee6-webapp2/CountryOperatorMccMncDAO
+	java:module/CountryOperatorMccMncDAO
+
+23:49:03,633 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-5) JNDI bindings for session bean named UserDAO in deployment unit deployment "jboss-javaee6-webapp2.war" are as follows:
+
+	java:global/jboss-javaee6-webapp2/UserDAO!group1.dao.UserDAO
+	java:app/jboss-javaee6-webapp2/UserDAO!group1.dao.UserDAO
+	java:module/UserDAO!group1.dao.UserDAO
+	java:global/jboss-javaee6-webapp2/UserDAO
+	java:app/jboss-javaee6-webapp2/UserDAO
+	java:module/UserDAO
+
+23:49:03,634 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-5) JNDI bindings for session bean named FailureClassDAO in deployment unit deployment "jboss-javaee6-webapp2.war" are as follows:
+
+	java:global/jboss-javaee6-webapp2/FailureClassDAO!group1.dao.FailureClassDAO
+	java:app/jboss-javaee6-webapp2/FailureClassDAO!group1.dao.FailureClassDAO
+	java:module/FailureClassDAO!group1.dao.FailureClassDAO
+	java:global/jboss-javaee6-webapp2/FailureClassDAO
+	java:app/jboss-javaee6-webapp2/FailureClassDAO
+	java:module/FailureClassDAO
+
+23:49:03,634 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-5) JNDI bindings for session bean named ExcelRead in deployment unit deployment "jboss-javaee6-webapp2.war" are as follows:
+
+	java:global/jboss-javaee6-webapp2/ExcelRead!group1.importData.ExcelRead
+	java:app/jboss-javaee6-webapp2/ExcelRead!group1.importData.ExcelRead
+	java:module/ExcelRead!group1.importData.ExcelRead
+	java:global/jboss-javaee6-webapp2/ExcelRead
+	java:app/jboss-javaee6-webapp2/ExcelRead
+	java:module/ExcelRead
+
+23:49:03,634 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-5) JNDI bindings for session bean named UserWS in deployment unit deployment "jboss-javaee6-webapp2.war" are as follows:
+
+	java:global/jboss-javaee6-webapp2/UserWS!group1.restful.UserWS
+	java:app/jboss-javaee6-webapp2/UserWS!group1.restful.UserWS
+	java:module/UserWS!group1.restful.UserWS
+	java:global/jboss-javaee6-webapp2/UserWS
+	java:app/jboss-javaee6-webapp2/UserWS
+	java:module/UserWS
+
+23:49:03,634 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-5) JNDI bindings for session bean named FailureClassWS in deployment unit deployment "jboss-javaee6-webapp2.war" are as follows:
+
+	java:global/jboss-javaee6-webapp2/FailureClassWS!group1.restful.FailureClassWS
+	java:app/jboss-javaee6-webapp2/FailureClassWS!group1.restful.FailureClassWS
+	java:module/FailureClassWS!group1.restful.FailureClassWS
+	java:global/jboss-javaee6-webapp2/FailureClassWS
+	java:app/jboss-javaee6-webapp2/FailureClassWS
+	java:module/FailureClassWS
+
+23:49:03,635 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-5) JNDI bindings for session bean named EventCauseDAO in deployment unit deployment "jboss-javaee6-webapp2.war" are as follows:
+
+	java:global/jboss-javaee6-webapp2/EventCauseDAO!group1.dao.EventCauseDAO
+	java:app/jboss-javaee6-webapp2/EventCauseDAO!group1.dao.EventCauseDAO
+	java:module/EventCauseDAO!group1.dao.EventCauseDAO
+	java:global/jboss-javaee6-webapp2/EventCauseDAO
+	java:app/jboss-javaee6-webapp2/EventCauseDAO
+	java:module/EventCauseDAO
+
+23:49:03,635 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-5) JNDI bindings for session bean named DAOFactory in deployment unit deployment "jboss-javaee6-webapp2.war" are as follows:
+
+	java:global/jboss-javaee6-webapp2/DAOFactory!group1.dao.DAOFactory
+	java:app/jboss-javaee6-webapp2/DAOFactory!group1.dao.DAOFactory
+	java:module/DAOFactory!group1.dao.DAOFactory
+	java:global/jboss-javaee6-webapp2/DAOFactory
+	java:app/jboss-javaee6-webapp2/DAOFactory
+	java:module/DAOFactory
+
+23:49:04,220 INFO  [org.jboss.weld.deployer] (MSC service thread 1-7) JBAS016005: Starting Services for CDI deployment: jboss-javaee6-webapp2.war
+23:49:04,431 INFO  [org.jboss.weld.Version] (MSC service thread 1-7) WELD-000900 1.1.28 (redhat)
+23:49:04,518 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 53) JBAS011402: Starting Persistence Unit Service 'jboss-javaee6-webapp2.war#Tutorial'
+23:49:04,550 INFO  [org.jboss.weld.deployer] (MSC service thread 1-8) JBAS016008: Starting weld service for deployment jboss-javaee6-webapp2.war
+23:49:04,827 INFO  [org.hibernate.annotations.common.Version] (ServerService Thread Pool -- 53) HCANN000001: Hibernate Commons Annotations {4.0.2.Final-redhat-1}
+23:49:04,868 INFO  [org.hibernate.Version] (ServerService Thread Pool -- 53) HHH000412: Hibernate Core {4.2.18.Final-redhat-2}
+23:49:04,875 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 53) HHH000206: hibernate.properties not found
+23:49:04,877 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 53) HHH000021: Bytecode provider name : javassist
+23:49:04,939 INFO  [org.hibernate.ejb.Ejb3Configuration] (ServerService Thread Pool -- 53) HHH000204: Processing PersistenceUnitInfo [
+	name: Tutorial
+	...]
+23:49:05,296 INFO  [org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator] (ServerService Thread Pool -- 53) HHH000130: Instantiating explicit connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+23:49:06,307 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 53) HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+23:49:06,654 INFO  [org.hibernate.engine.transaction.internal.TransactionFactoryInitiator] (ServerService Thread Pool -- 53) HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jta.CMTTransactionFactory
+23:49:06,668 INFO  [org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] (ServerService Thread Pool -- 53) HHH000397: Using ASTQueryTranslatorFactory
+23:49:06,763 INFO  [org.hibernate.validator.internal.util.Version] (ServerService Thread Pool -- 53) HV000001: Hibernate Validator 4.3.2.Final-redhat-2
+23:49:08,722 INFO  [org.jboss.web] (ServerService Thread Pool -- 59) JBAS018210: Register web context: /jboss-javaee6-webapp2
+23:49:08,910 INFO  [org.jboss.as.server] (management-handler-thread - 1) JBAS015862: Redeployed "jboss-javaee6-webapp2.war"
+23:49:08,911 INFO  [org.jboss.as.repository] (management-handler-thread - 1) JBAS014901: Content removed from location /home/coolbeaver/Development/javaee/JavaEEProject/jboss-eap-6.4/standalone/data/content/c5/4e047b834a0d7bacc2cc04b8e8eeaf9179c6ed/content
+23:50:40,690 INFO  [org.jboss.resteasy.cdi.i18n] (http-/127.0.0.1:8080-1) RESTEASY006050: Found BeanManager at java:comp/BeanManager
+23:50:41,045 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (http-/127.0.0.1:8080-1) RESTEASY000320: Deploying javax.ws.rs.core.Application: class group1.restful.RestApplication$Proxy$_$$_WeldClientProxy
+23:57:52,232 INFO  [org.apache.coyote.http11.Http11Protocol] (MSC service thread 1-2) JBWEB003075: Coyote HTTP/1.1 pausing on: http-/127.0.0.1:8080
+23:57:52,238 INFO  [org.jboss.web] (ServerService Thread Pool -- 60) JBAS018224: Unregister web context: /jboss-javaee6-webapp2
+23:57:52,244 INFO  [org.apache.coyote.http11.Http11Protocol] (MSC service thread 1-2) JBWEB003077: Coyote HTTP/1.1 stopping on : http-/127.0.0.1:8080
+23:57:52,269 INFO  [org.apache.catalina.core] (MSC service thread 1-5) JBWEB001079: Container org.apache.catalina.core.ContainerBase.[jboss.web].[default-host].[/] has not been started
+23:57:52,328 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 61) JBAS011403: Stopping Persistence Unit Service 'jboss-javaee6-webapp2.war#Tutorial'
+23:57:52,331 INFO  [org.jboss.weld.deployer] (MSC service thread 1-6) JBAS016009: Stopping weld service for deployment jboss-javaee6-webapp2.war
+23:57:52,346 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-4) JBAS010409: Unbound data source [java:/tutorial]
+23:57:52,383 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) JBAS015877: Stopped deployment mysql-connector-java-5.1.18-bin.jar (runtime-name: mysql-connector-java-5.1.18-bin.jar) in 154ms
+23:57:52,420 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) JBAS015877: Stopped deployment jboss-javaee6-webapp2.war (runtime-name: jboss-javaee6-webapp2.war) in 200ms
+23:57:52,432 INFO  [org.jboss.as] (MSC service thread 1-3) JBAS015950: JBoss EAP 6.4.0.GA (AS 7.5.0.Final-redhat-21) stopped in 198ms
