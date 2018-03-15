@@ -364,8 +364,11 @@
         <deployment name="jboss-javaee6-webapp2.war" runtime-name="jboss-javaee6-webapp2.war" enabled="false">
             <content sha1="a1271f7a0bcdc989ea0be625e7ee134f3fd2d0a6"/>
         </deployment>
+        <deployment name="footie-webapp.war" runtime-name="footie-webapp.war">
+            <content sha1="7d075bc1fd3b2b84352b36da8230281245608f9e"/>
+        </deployment>
         <deployment name="test.war" runtime-name="test.war">
-            <content sha1="0eb340254783f4c92ca425fcd97257a00b225a19"/>
+            <content sha1="80c047a31232fbecc414fc53064e64ecb5d218a2"/>
         </deployment>
     </deployments>
 </server>
