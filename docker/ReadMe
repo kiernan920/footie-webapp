@@ -1,8 +1,0 @@
-sudo docker build --tag=wildfly-app .
-
-sudo docker build --tag=wildfly-app --build-arg filename=footie-webapp.war .
-
-sudo docker run -it -p 8080:8080 wildfly-app
-
-
-
