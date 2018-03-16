@@ -1,13 +1,14 @@
-FROM jboss/wildfly
+FROM jboss/wildfly:latest
 
-#RUN /opt/jboss/wildfly/bin/add-user.sh admin Admin#70365 --silent
+ADD customization /opt/jboss/wildfly/customization/
+ADD modules /opt/jboss/wildfly/modules/
 
-#CMD ["/opt/jboss/wildfly/bin/standalone.sh", "-b", "0.0.0.0", "-bmanagement", "0.0.0.0"]
-
-ARG filename=../target/footie-webapp.war
+ARG filename=footie-webapp.war
 
 ADD $filename /opt/jboss/wildfly/standalone/deployments/
 
-EXPOSE 8080:8080
+EXPOSE 8080
 
-ENV myName John Doe
+RUN /opt/jboss/wildfly/customization/execute.sh
+
+
