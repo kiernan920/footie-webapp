@@ -25,10 +25,19 @@ wait_for_server
 echo "=> Executing the commands"
 $JBOSS_CLI -c --file=`dirname "$0"`/commands.cli
 
-echo "=> Shutting down WildFly"
-if [ "$JBOSS_MODE" = "standalone" ]; then
-  $JBOSS_CLI -c ":shutdown"
-else
-  $JBOSS_CLI -c "/host=*:shutdown"
-fi
+#echo "=> Shutting down WildFly"
+#if [ "$JBOSS_MODE" = "standalone" ]; then
+#  $JBOSS_CLI -c ":shutdown"
+#else
+#  $JBOSS_CLI -c "/host=*:shutdown"
+#fi
+
+function infiniteloop() {
+while true; do printf "";  sleep 2; done
+}
+
+echo "copy file"
+
+cp -r /opt/jboss/wildfly/warToBeDeployed/footie-webapp.war /opt/jboss/wildfly/standalone/deployments/
+infiniteloop
 
