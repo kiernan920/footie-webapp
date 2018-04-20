@@ -21,6 +21,12 @@ public class UserWS {
 
 	@EJB
     UserDAO userDAO;
+
+	@GET
+	@Path("/test")
+	public Response test(){
+		return Response.status(200).entity("{\"response\":\"testResponse\"}").build();
+	}
 	
 	@GET
 	@Path("/check/{username}/{password}")
