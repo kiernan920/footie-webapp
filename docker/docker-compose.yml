@@ -5,7 +5,7 @@ services:
   # Image Containing MySql
   mysql:
     container_name: mysql_container
-    image: mysql/mysql-server:latest
+    image: mysql/mysql-server:5.7.20
     environment:
         - MYSQL_ROOT_PASSWORD=root
         - MYSQL_DATABASE=footiedb

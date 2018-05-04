@@ -16,6 +16,8 @@ function wait_for_server() {
   done
 }
 
+cp -rf /opt/jboss/wildfly/customization/standalone.conf /opt/jboss/wildfly/bin/
+
 echo "=> Starting WildFly server"
 $JBOSS_HOME/bin/$JBOSS_MODE.sh -c $JBOSS_CONFIG > /dev/null &
 
